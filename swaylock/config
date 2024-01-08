@@ -1,0 +1,20 @@
+screenshots
+indicator
+clock
+fade-in=0.5
+font="FantasqueSansM Nerd Font"
+text-color=d3c6aa
+text-ver-color=d3c6aa
+text-wrong-color=d3c6aa
+key-hl-color=425047
+bs-hl-color=e67e80
+inside-color=343f44aa
+inside-ver-color=343f44aa
+inside-wrong-color=343f44aa
+line-color=475258
+ring-color=a7c080
+ring-ver-color=dbbc7f
+ring-wrong-color=e67e80
+
+effect-blur=20x5
+effect-vignette=0.5:0.5

@@ -1,0 +1,53 @@
+{
+  "layer": "top",
+  "position": "top",
+  "height": 40,
+  "margin-top": 0,
+  "margin-left": 20,
+  "margin-right": 20,
+  "modules-left": [
+    "hyprland/workspaces",
+    "hyprland/window"
+  ],
+  "modules-center": [
+    "clock"
+  ],
+  "modules-right": [
+    "tray",
+    "backlight",
+    "cpu",
+    "pulseaudio",
+    "network",
+    "idle-inhibitor",
+    "battery"
+  ],
+  "clock": {
+    "format": "{:%a %d %b %H:%M}",
+    "tooltip": false
+  },
+  "battery": {
+    "format": "{capacity}% {icon}",
+    "format-alt": "{time} {icon}",
+    "format-icons": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "format-charging": "{capacity}% 󱐋",
+    "interval": 30,
+    "states": {
+      "warning": 25,
+      "critical": 10
+    }
+  },
+  "idle_inhibitor": {
+    "format": "{icon}",
+    "format-icons": {
+      "activated": "󰛊",
+      "deactivated": "󰅶"
+    },
+    "tooltip": false
+  }
+}

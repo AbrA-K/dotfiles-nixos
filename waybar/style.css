@@ -1,0 +1,84 @@
+* {
+  all: unset;
+  font-size: 15;
+  font-family: "FantasqueSansM Nerd Font";
+}
+
+window#waybar {
+  background: #232a2e;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border: 3px solid #343f44;
+  border-top: 0px;
+}
+
+#workspaces {
+  padding-left: 10px;
+}
+
+#workspaces button.active {
+  background: #a7c080;
+  color: #425047;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#workspaces button {
+  background: #3d3f44;
+  color: #7a8478;
+  border-radius: 50px;
+  padding-left: 7px;
+  padding-right: 7px;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  margin-left: 2px;
+  margin-right: 2px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#window {
+  color: #a7c080;
+  background: #425047;
+  margin: 10px;
+  border-radius: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#clock {
+  background: #7fbbb3;
+  color: #3a515d;
+  border-radius: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.modules-right {
+  background: #543a48;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-right: 20px;
+  border-radius: 50px;
+}
+
+#network,
+#cpu,
+#pulseaudio,
+#backlight,
+#battery,
+#idle-inhibitor,
+#tray {
+  color: #514045;
+  background: #d699b6;
+  border-radius: 50px;
+  margin-right: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#battery {
+  margin-right: 0px;
+}

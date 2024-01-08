@@ -1,0 +1,577 @@
+rm -rf .config .config/gtk-4.0/
+ls .config/
+hx .config/helix/config.toml
+cd Projects/im_a_zigling/ziglings/
+hx
+cd ~/Projects/
+cd chomp/
+nix-shell 
+cd
+cd .config/
+ls
+mkdir hypr
+kgx
+exit
+sudo nixos-rebuild switch_root 
+sudo nixos-rebuild switch
+nautilus 
+gsettings set org.gnome.desktop.interface color-scheme prefer-dark
+nautilus 
+gsettings set org.gnome.desktop.interface color-scheme prefer-dark
+cd boxer/
+csharp-ls 
+exit
+exit
+ls
+cd Projects/im_a_zigling/ziglings/
+hx
+hx .wezterm.lua
+cd Projects/im_a_zigling/ziglings/
+zig build
+bash
+zig build
+hx
+zig build
+zigc exercises/034_quiz4.zig
+zig  exercises/034_quiz4.zig
+cat exercises/034_quiz4.zig
+zig version
+cd Projects/im_a_zigling/
+mkdir doghnut
+cd doghnut/
+zig init-exe
+zig build run
+cd Projects/im_a_zigling/
+cd doghnut/
+hx
+cd ../..
+cd chomp/
+hx
+cd
+cd boxer/
+hx
+cd Projects/chomp/
+hx
+cd ../
+cd chomp-synth/
+cd Projects/
+mkdir typetest
+cd typetest/
+hx shell.nix
+nix-shell 
+cd Projects/typetest/
+hx --health ts
+hx --health typescript
+tsc
+npm
+nix-shell 
+hx shell.nix
+nix-shell 
+hx shell.nix
+hx
+hx .ignore
+hx
+ls
+hx main.ts
+tsc main.ts
+hx
+npm install
+npm instal
+hx
+hx tsconfig.json
+tsc main.ts
+hx
+tsc main.ts
+gjs main.js
+nix-shell 
+hx shell.nix
+hx
+tsc main.ts
+nix-shell 
+hx shell.nix
+nix-shell 
+hx
+tsc main.ts
+gnome-extensions 
+gnome-extensions create
+gnome-extensions create --interactive
+cd .local/share/gnome-shell/extensions/mosek@abra-k.xyz/
+ls
+hx
+dbus-run-session -- gnome-shell
+dbus-run-session gnome-shell
+gnome-shell
+dbus-run-session -- gnome-shell --nested --wayland
+sudo hx /etc/nixos/configuration.nix
+dbus-run-session -- gnome-shell --nested --wayland
+hx test.js
+ls
+dbus-run-session -- gnome-shell --nested --wayland
+cd .local/share/gnome-shell/extensions/mosek@abra-k.xyz/
+dbus-run-session -- gnome-shell --nested --wayland
+cd .local/share/gnome-shell/extensions/mosek@abra-k.xyz/
+dbus-run-session -- gnome-shell --nested --wayland
+gjs
+nix-shell -p gjs
+dbus-run-session -- gnome-shell --nested --wayland
+hx test.zon
+rm test.zon
+dbus-run-session -- gnome-shell --nested --wayland
+hx
+dbus-run-session -- gnome-shell --nested --wayland
+hx windows.js
+cd
+cd Projects/
+cd im_a_zigling/
+mkdir mosek-zig
+cd mosek-zig/
+zig init-exe
+hx
+hx input.json
+hx
+git clone https://github.com/berdon/zig-json
+waybar
+touch .config/waybar/style.css
+waybar
+ls /usr
+ls /usr/bin
+ls /nix/store/
+fastfetch 
+hx
+cd boxer/
+dbus-run-session -- gnome-shell --nested --wayland
+cd Projects/im_a_zigling/mosek-zig/
+hx .config/gtk-4.0/settings.ini
+rm .config/gtk-4.0/settings.ini
+exit
+hx
+hx 
+pkill Discord
+cd boxer/
+h
+hx
+cd
+cd Projects/im_a_zigling/mosek-zig/
+zig build run
+hx
+exit
+exit
+cd boxer/
+hx
+cd boxer/
+cd
+nix-shell -p emacs
+sudo hx /etc/nixos/configuration.nix
+sudo nixos-rebuild switch
+cd boxer/
+nix-shell -p pmbootstrap
+nix-shell -p pmbootstrap heimdall
+exit
+hx
+cd
+nix-shell -p android-tools
+sudo hx /etc/nixos/configuration.nix
+sudo nixos-rebuild switch
+groups
+sudo groups
+nix-shell -p android-tools
+sudo hx /etc/nixos/configuration.nix
+sudo nixos-rebuild switch
+adb -d reboot bootloader
+adb -d reboot
+adb -d reboot bootloader
+fastboot devices
+fastboot flash recovery Downloads/lineage-20.0-20231201-microG-FP4-recovery.img
+adb -d reboot bootloader
+fastboot flashing unlock_critical
+adb -d reboot bootloader
+fastboot flash recovery Downloads/lineage-20.0-20231201-microG-FP4-recovery.img
+fastboot flashing unlock_critical
+adb -d reboot bootloader
+fastboot flashing unlock
+fastboot flash recovery Downloads/lineage-20.0-20231201-microG-FP4-recovery.img
+adb -d reboot bootloader
+fastboot devices
+fastboot flash recovery Downloads/lineage-20.0-20231201-microG-FP4-recovery.img
+fastboot devices
+adb -d sideload Downloads/lineage-20.0-20231206-microG-FP4.zip
+adb -d reboot bootloader
+fastboot flashing lock
+fastboot flashing lock_critical
+adb -d sideload Downloads/lineage-20.0-20231206-microG-FP4.zip
+fastboot devices
+fastboot flashing lock_critical
+fastboot devices
+sudo fastboot devices
+adb -d reboot bootloader
+adb -d sideload Downloads/lineage-20.0-20231206-microG-FP4.zip
+fastboot devices
+adb --help
+adb -d sideload Downloads/lineage-20.0-20231206-microG-FP4.zip
+adb -d sideload Downloads/lineage-20.0-20240103-nightly-FP4-signed.zip
+fastboot devices
+fastboot flashing unlock
+fastboot flashing 
+fastboot flashing --help
+fastboot flashing unlock
+fastboot flashing flash dtbo Downloads/lineage-20.0-20231201-microG-FP4-dtbo.img
+fastboot flash flash dtbo Downloads/lineage-20.0-20231201-microG-FP4-dtbo.img
+adb -d sideload Downloads/FP4-TP1V-factory.zip
+adb -d sideload Downloads/lineage-20.0-20240103-nightly-FP4-signed.zip
+adb -d sideload Downloads/FP4-TP1V-factory.zip
+adb -d sideload Downloads/lineage-20.0-20240103-nightly-FP4-signed.zip
+adb -d sideload Downloads/FP4-TP1V-factory.zip
+adb -d sideload Downloads/lineage-20.0-20240103-nightly-FP4-signed.zip
+fastboot flashing unlock
+fastboot flashing --help
+fastboot flashing unlock
+fastboot devices
+fastboot flashing unlock
+fastboot flashing unlock_critical
+fastboot flash recovery Downloads/lineage-20.0-20231201-microG-FP4-recovery.img
+adb -d sideload Downloads/lineage-20.0-20231206-microG-FP4.zip
+fastfetch
+ü
+fastfetch
+sudo hx /etc/nixos/configuration.nix
+sudo hx /etc/nixos/syncthing.nix
+sudo nixos-rebuild switch
+sudo hx /etc/nixos/syncthing.nix
+sudo hx /etc/nixos/configuration.nix
+sudo nixos-rebuild switch
+sudo hx /etc/nixos/syncthing.nix
+sudo nixos-rebuild switch
+sudo hx /etc/nixos/syncthing.nix
+sudo nixos-rebuild switch
+sudo hx /etc/nixos/syncthing.nix
+cp /etc/nixos/syncthing.nix
+bar /etc/nixos/syncthing.nix
+bat /etc/nixos/syncthing.nix
+hx .config/hypr/hyprland.conf
+gsettings set org.gnome.desktop.interface color-scheme prefer-dark
+nix-shell -p nwg-look
+gsettings get org.gnome.desktop.interface color-scheme
+gsettings get org.gnome.desktop.interface gtk-theme
+gsettings set org.gnome.desktop.interface color-scheme prefer-dark
+nautilus 
+sudo hx /etc/nixos/configuration.nix
+sudo nixos-rebuild switch
+gsettings set org.gnome.desktop.interface color-scheme prefer-dark
+kgx
+gsettings set org.gnome.desktop.interface color-scheme prefer-dark
+sudo nixos-rebuild switch
+gsettings set org.gnome.desktop.interface color-scheme prefer-dark
+kgx
+exit
+nix-shell -p obs-studio
+xdg-settings --help
+xdg-settings --list
+xdg-desktop-menu 
+dbus-update-activation-environment --systemd --all
+nautilus 
+systemctl --user import-environment QT_QPA_PLATFORMTHEME
+nautilus 
+systemctl --user status xdg-desktop-portal-hyprland<\n><\n>
+cd boxer/
+hx
+cd
+sudo hx /etc/nixos/configuration.nix
+sudo nixos-rebuild switch
+sudo hx /etc/nixos/configuration.nix
+sudo nixos-rebuild switch
+sudo hx /etc/nixos/configuration.nix
+sudo nixos-rebuild switch
+sudo hx /etc/nixos/configuration.nix
+sudo nixos-rebuild switch
+sudo hx /etc/nixos/configuration.nix
+sudo nixos-rebuild switch
+sudo hx /etc/nixos/configuration.nix
+sudo nixos-rebuild switch
+sudo hx /etc/nixos/configuration.nix
+sudo nixos-rebuild switch
+ip addry
+ip addr
+sudo hx /etc/nixos/configuration.nix
+exit
+cd Projects/
+cp chomp jazz
+ls
+mkdir ffz
+cp chomp ffz/
+cp -r chomp ffz/
+cd ffz/
+cd Projects/ffz/
+sudo hx /etc/nixos/configuration.nix
+sudo nixos-rebuild switch
+exit
+z
+exit
+z 
+z
+zoxide 
+exit
+help alias
+hx .config/nushell/config.nu
+z
+exit
+z
+help alias
+hx .config/nushell/config.nu
+z
+zz
+z
+Z
+hx .config/nushell/config.nu
+hx .config/nushell/env.nu
+alias z = zioxide
+z
+hx .config/nushell/config.nu
+z
+nu
+z ffj
+z Projects/ffz/
+z --help
+z init
+z init nu
+z init nushell
+z init nushell | save -f .zoxide.nu
+hx .config/nushell/config.nu
+z
+z ffz
+z Projects/ffz/
+z
+z ffz
+nix-shell
+ls
+ls chomp/
+mv -r chomp/* .
+mv chomp/* .
+ls
+rm -rf chomp/
+hx
+z
+sudo hx /etc/nixos/configuration.nix
+sudo nixos-rebuild switch
+z ffz
+bacon
+nix-shell
+exit
+z
+rustup component add rust-analyzes
+rustup component add rust-analyzer
+hx
+find rust-analyzer
+which rust-analyzer
+fzf
+cd .cargo/
+fzf
+find rust-analyzer
+ls
+ls git/
+ls git/checkouts/
+ls git/checkouts/rust-analyzer-5e0f1308176aaeda/
+ls git/checkouts/rust-analyzer-5e0f1308176aaeda/8a23314/
+ls git/checkouts/rust-analyzer-5e0f1308176aaeda/8a23314/crates/
+sudo hx /etc/nixos/configuration.nix
+exit
+cd
+z ffz
+bacon
+nix-shell
+rustup component rm rust-analyzer
+rustup component remove rust-analyzer
+hx --health rust
+hx
+sudo nixos-rebuild switch
+hx
+rust-analyzer 
+rm /run/current-system/sw/bin/rust-analyzer
+sudo rm /run/current-system/sw/bin/rust-analyzer
+sudo hx /etc/nixos/configuration.nix
+sudo nixos-rebuild switch
+hx --health rust
+reboot
+hx --health rust
+rust-analyzer 
+rustup component help
+rustup component remove rust-analyzer
+which rust-analyzer
+fzf /nix/store/
+z /nix/store/
+fzf
+z
+sudo hx
+sudo hx /etc/nixos/configuration.nix
+nix -gc
+nix --help
+nix-collect-garbage 
+which rust-analyzer
+rust-analyzer 
+z ffz
+sudo hx /etc/nixos/configuration.nix
+rustup component add rust-analyzer
+nix-shell -p cosmic-edit-unstable
+nix-shell -p cosmic-edit
+nix-shell -p tangram
+fastfetch
+hx .zoxide.nu
+zi ffz
+zi
+z
+zi
+rm -rf .config/gtk-4.0/
+cp .themes/Everforest-Dark-BL/gtk-4.0/ .config/
+cp .themes/Everforest-Dark-BL/gtk-4.0/ .config/gtk-4.0
+exit
+hx .config/hypr/hyprland.conf
+sudo hx /etc/nixos/configuration.nix
+sudo nixos-rebuild switch
+sudo hx /etc/nixos/configuration.nix
+sudo nixos-rebuild switch
+nix-shell -p nwg-look
+gsettings set org.gnome.desktop.interface color-scheme prefer-dark
+nautilus 
+sudo nixos-rebuild switch
+reboot
+gsettings get org.gnome.desktop.interface color-scheme 
+nautilus 
+swaylock
+nix-shell -p nwg-look
+sudo hx /etc/nixos/configuration.nix
+sudo nixos-rebuild switch
+gsettings get org.gnome.desktop.interface color-scheme 
+nix-shell -p obs-studio
+sudo hx /etc/nixos/configuration.nix
+gsettings get org.gnome.desktop.interface color-scheme 
+nix-shell -p obs-studio
+sudo hx /etc/nixos/configuration.nix
+sudo nixos-rebuild switch
+gnome-shell
+reboo
+Hyprland 
+sudo hx /etc/nixos/configuration.nix
+sudo nixe
+sudo nixos-rebuild switch
+sudo hx /etc/nixos/configuration.nix
+sudo nixos-rebuild switch
+gsettings get org.gnome.desktop.interface color-scheme 
+nautilus 
+sudo nixos-rebuild switch
+cd Projects/ffz/
+hx
+rm -rf .config/gtk-4.0/
+nau
+nautilus 
+sudo nixos-rebuild switch
+sudo hx /etc/nixos/configuration.nix
+sudo nixos-rebuild switch
+reboot
+sudo hx /etc/nixos/configuration.nix
+sudo nixos-rebuild switch
+sudo hx /etc/nixos/configuration.nix
+sudo nixos-rebuild switch
+nautilus 
+sudo hx .wezterm.lua
+exit
+fc-list 
+fc-list | fzf
+fc-list | grep "JetBrains"
+fc-list | grep "je"
+fc-list | grep "nerd"
+dbus-update-activation-environment --systemd --all
+nix-shell -p dconf gcr
+sudo nixos-rebuild switch
+nix-shell -p epiphany
+sudo hx /etc/nixos/configuration.nix
+sudo nixos-rebuild switch
+sudo hx /etc/nixos/configuration.nix
+sudo nixos-rebuild switch
+sudo hx /etc/nixos/configuration.nix
+hx .config/hypr/hyprland.conf
+nix-shell -p nautilus
+nix-shell -p gnome-nautilus
+nix-shell -p gnome.nautilus
+sudo hx /etc/nixos/configuration.nix
+termusic
+exit
+hx .config/hypr/hyprland.conf
+hx .config/kickoff/config.toml
+swaybar
+waybar
+cd .config/waybar/
+ls
+waybar
+swww img Downloads/classroom.jpg
+ls Pictures/Wallpapers/
+swww img Pictures/Wallpapers/green-house.png
+waybar
+nix-shell -p colorpicker
+z
+z .config/helix/
+ls
+mkdir themes
+hx themes/everforest.toml
+exit
+waybar
+hx
+exit
+nix-shell -p gnome.fonts
+nix-shell -p gnome.gnome-font-viewer
+sudo hx /etc/nixos/configuration.nix
+sudo nixos-rebuild switch
+sudo hx /etc/nixos/configuration.nix
+sudo nixos-rebuild switch
+sudo hx /etc/nixos/configuration.nix
+sudo nixos-rebuild switch
+sudo hx /etc/nixos/configuration.nix
+sudo nixos-rebuild switch
+sudo hx /etc/nixos/configuration.nix
+sudo nixos-rebuild switch
+sudo hx /etc/nixos/configuration.nix
+sudo nixos-rebuild switch
+sudo hx /etc/nixos/configuration.nix
+sudo nixos-rebuild switch
+sudo hx /etc/nixos/configuration.nix
+sudo nixos-rebuild switch
+hx .wezterm.lua
+fc-list | grep "nerd"
+fc-list | grep "Fant"
+fc-cache 
+fc-list | grep "nerd"
+wezterm ls-fonts --list-system
+wezterm ls-fonts --list-system | grep "Fant"
+exit
+sudo hx /etc/nixos/configuration.nix
+hx .config/waybar/style.css
+pkill waybar
+hx .config/waybar/style.css
+fastfetch
+pkill waybar
+waybar
+hx .config/waybar/style.css
+man swaylock
+mkdir .config/swaylock
+swaylock --help
+swaylock
+man swaylock
+swaylock
+swaylock --color=000000
+swaylock --color=000000ff
+swaylock
+fc-list | grep "nerd"
+swaylock
+fastfetch
+swaylock
+systemctl suspend
+nix flake 
+mkdir .dotfiles
+cd .dotfiles/
+cp /etc/nixos/syncthing.nix .
+cp /etc/nixos/configuration.nix .
+cp /etc/nixos/hardware-configuration.nix .
+hx flake.nix
+cd
+cd .config/
+ls
+git init
+hx .gitignore
