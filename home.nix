@@ -36,15 +36,15 @@
       name = "MoreWaita";
     };
 
-    theme = {
-      name = "adw-gtk3";
-      package = pkgs.adw-gtk3;
-    };
+    # theme = {
+    #   name = "adw-gtk3";
+    #   package = pkgs.adw-gtk3;
+    # };
 
-    gtk3.extraConfig = {
-      Settings = ''
-        gtk-application-prefer-dark-theme=0
-      '';
-    };
+    # gtk3.extraConfig = {
+    #   Settings = ''
+    #     gtk-application-prefer-dark-theme=0
+    #   '';
+    # };
   };
 }
