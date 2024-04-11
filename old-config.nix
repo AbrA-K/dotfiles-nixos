@@ -14,7 +14,7 @@
   boot.loader.systemd-boot.enable = true;
   boot.loader.efi.canTouchEfiVariables = true;
 
-  networking.hostName = "nixos"; # Define your hostname.
+  networking.hostName = "KadaZen"; # Define your hostname.
   # networking.wireless.enable = true;  # Enables wireless support via wpa_supplicant.
 
   # Configure network proxy if necessary
@@ -46,21 +46,22 @@
   # Enable the X11 windowing system.
   services.xserver.enable = true;
 
+  hardware.bluetooth.enable = true;
+  hardware.bluetooth.powerOnBoot = true;
+  services.blueman.enable = true;
+
   # Enable the GNOME Desktop Environment.
   services.xserver.displayManager.gdm.enable = true;
   #services.xserver.desktopManager.gnome.enable = true;
 
-  programs.hyprland.enable = true;
-  environment.sessionVariables.NIXOS_OZONE_WL = "1";
-
   # Configure keymap in X11
   services.xserver = {
-    layout = "de";
-    xkbVariant = "neo";
+    xkb.layout = "de";
+    xkb.variant = "neo";
   };
 
   # Configure console keymap
-  console.keyMap = "de";
+  console.keyMap = "neo";
 
   # Enable CUPS to print documents.
   services.printing.enable = true;
@@ -89,11 +90,34 @@
   users.users.abra = {
     isNormalUser = true;
     description = "abra-k";
-    extraGroups = [ "networkmanager" "wheel" ];
+    extraGroups = [ "networkmanager" "wheel" "syncthing" "video" "dialout" ];
     packages = with pkgs; [
+      vlc
       firefox
       helix
+      vscodium
       git
+      zellij
+      glib
+
+      jetbrains.rider
+      libreoffice
+      vesktop
+      obsidian
+      unityhub
+
+      # helix lsp's
+      nil
+      platformio-core
+      csharp-ls
+      marksman
+      dotnet-sdk_8
+      ccls
+      python3
+
+      fzf
+      zoxide
+      unzip
     #  thunderbird
     ];
   };
@@ -107,6 +131,15 @@
   #  vim # Do not forget to add an editor to edit configuration.nix! The Nano editor is also installed by default.
   #  wget
     alacritty
+  ];
+
+  fonts.packages = with pkgs; [
+    (nerdfonts.override { fonts = [ "FantasqueSansMono" ]; })
+  ];
+
+  services.udev.packages = [
+    pkgs.platformio-core
+    pkgs.openocd
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
@@ -123,8 +156,8 @@
   # services.openssh.enable = true;
 
   # Open ports in the firewall.
-  # networking.firewall.allowedTCPPorts = [ ... ];
-  # networking.firewall.allowedUDPPorts = [ ... ];
+  networking.firewall.allowedTCPPorts = [ 8384 22000 ];
+  networking.firewall.allowedUDPPorts = [ 22000 21027 ];
   # Or disable the firewall altogether.
   # networking.firewall.enable = false;
 
@@ -135,5 +168,4 @@
   # Before changing this value read the documentation for this option
   # (e.g. man configuration.nix or on https://nixos.org/nixos/options.html).
   system.stateVersion = "23.11"; # Did you read the comment?
-
 }
