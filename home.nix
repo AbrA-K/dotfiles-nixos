@@ -10,6 +10,7 @@
   home.packages = [
     pkgs.kakoune
   ];
+  services.syncthing.enable = true;
 
   # This value determines the Home Manager release that your
   # configuration is compatible with. This helps avoid breakage
@@ -23,4 +24,27 @@
 
   # Let Home Manager install and manage itself.
   programs.home-manager.enable = true;
+
+  gtk = {
+    enable = true;
+    # icon theme is Morewaita and needs to be installed manually, since I'm bad at nix:
+    # $git clone https://github.com/somepaulo/MoreWaita.git
+    # $cd MoreWaita
+    # $./install.sh
+
+    iconTheme = {
+      name = "MoreWaita";
+    };
+
+    theme = {
+      name = "adw-gtk3";
+      package = pkgs.adw-gtk3;
+    };
+
+    gtk3.extraConfig = {
+      Settings = ''
+        gtk-application-prefer-dark-theme=0
+      '';
+    };
+  };
 }
