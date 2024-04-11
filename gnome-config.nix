@@ -16,6 +16,7 @@
   gnome-obfuscate
   gnome-solanum
   video-trimmer
+  gnome.gnome-tweaks
   ];
 
   services.flatpak.enable = true;
